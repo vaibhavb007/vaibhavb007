@@ -1,3 +1,63 @@
+@unpublished{bhosale2023asteria,
+    Author = {Bhosale, Vaibhav and Gavrilovska, Ada and Bhardwaj, Ketan},
+    Title = {Asteria: Choreographing a LEO Edge to Satellite Motion},
+}
+
+@unpublished{bhosale2023,
+    Author = {Bhosale, Vaibhav and Saxena, Navrati and Bhardwaj, Ketan and Gavrilovska, Ada and Roy, Abhishek},
+    Title = {Efficient Cross-Frequency Beam Prediction in 6G Wireless Using Time Series Data},
+}
+
+@inproceedings{bhosale2023astrolabe,
+  title={Astrolabe: Modeling RTT Variability in LEO Networks},
+  author={Bhosale, Vaibhav and Bhardwaj, Ketan and Saeed, Ahmed},
+  booktitle={Proceedings of the 1st ACM Workshop on LEO Networking and Communication},
+  pages={7--12},
+  year={2023},
+  file={astrolabe.pdf},
+  abstract = {Networking practitioners heavily rely on intuitive models of the behavior of networks when designing and analyzing protocols and algorithms. However, there is still a lack of such intuitive models of the behavior of LEO satellite networks, hindering innovation. In this paper, we provide a first step towards improving the intuitive understanding of the behavior of LEO satellite networks. In particular, we focus on developing a model that captures the RTT variability exhibited by such networks. We rely on simple and intuitive calculations instead of expensive simulations. To capture the high RTT variability exhibited by satellite networks, we estimate lower and upper bounds for the RTT between a pair of ground stations. We introduce Astrolabe, a novel approach that achieves accurate bounds, with a median lower bound within 1.15X the actual lowest RTT and a median upper bound within 2X the highest RTT in a few seconds instead of hours required by simulations or measurements.},
+}
+
+@inproceedings{bhosale2023paddlesats,
+  title={PaddleSats: Attitude Control and Station-Keeping for Ultra-Low Density SSP Satellites},
+  author={Bhosale, Vaibhav and Dolan, Jonathan and Kalepu, Grishma and Manjunath, Deeksha and Durgin, Gregory},
+  booktitle={2023 IEEE International Conference on Wireless for Space and Extreme Environments (WiSEE)},
+  pages={41--46},
+  year={2023},
+  organization={IEEE},
+  file={paddlesats.pdf},
+  abstract={‘PaddleSats’ represent a unique class of Space Solar Power (SSP) satellites distinguished by their ultra-low area density and distinctive design, featuring two circular disks—a solar collection disk and a microwave transmission disk—connected by a cylindrical joint. This paper introduces a comprehensive framework and presents initial results for an advanced Paddle-Sat attitude control algorithm. The primary objective of this algorithm is to emulate the behavior of traditional geostationary satellites, particularly their station-keeping procedures while adhering to the specific requirements for efficient microwave SSP transmission. Our results show that the PaddleSat attitude control algorithm successfully achieves the desired station-keeping behavior, effectively balancing the demands of stable positioning with the unique requirements of microwave SSP transmission. These findings highlight the potential of PaddleSats as a viable and efficient means of harnessing solar power in space.},
+}
+
+@article{bhosale4don,
+  title={{Don’t Let Your LEO Edge Fade at Night}},
+  author={Bhosale, Vaibhav and Bhardwaj, Ketan and Gavrilovska, Ada},
+  booktitle={1st Workshop on Hot Topics in System Infrastructure},
+  year={2023},
+  file={hotinfra.pdf},
+  abstract={The Low Earth Orbit (LEO) satellite edge has emerged as a promising solution to alleviate data congestion on the ground-satellite links (GSLs). However, existing approaches either offer inflexible fixed-function deployments or focus solely on addressing infrastructure mobility. In this paper, we shed light on the unique challenges posed by the varying energy harvested by satellites, which necessitates a fresh perspective on orchestration within satellites. Our work serves as a compelling call to integrate energy as a first-class metric for orchestrating applications within the LEO satellite infrastructure, posed as the new frontier of computing infrastructure.},
+}
+
+@inproceedings{bhosale2023characterization,
+  title={{A Characterization of Route Variability in LEO Satellite Networks}},
+  author={Bhosale, Vaibhav and Saeed, Ahmed and Bhardwaj, Ketan and Gavrilovska, Ada},
+  booktitle={International Conference on Passive and Active Network Measurement},
+  pages={313--342},
+  year={2023},
+  organization={Springer},
+  file={pam23.pdf}
+  abstract={LEO satellite networks possess highly dynamic topologies, with satellites moving at 27,000 km/hour to maintain their orbit. As satellites move, the characteristics of the satellite network routes change, triggering rerouting events. Frequent rerouting can cause poor performance for path-adaptive algorithms (e.g., congestion control). In this paper, we provide a thorough characterization of route variability in LEO satellite networks, focusing on route churn and RTT variability. We show that high route churn is common, with most paths used for less than half of their lifetime. With some paths used for just a few seconds. This churn is also unnecessary with rerouting leading to marginal gains in most cases (e.g., less than a 15% reduction in RTT). Moreover, we show that the high route churn is harmful to network utilization and congestion control performance. By examining RTT variability, we find that the smallest achievable RTT between two ground stations can increase by 2.5x as satellites move in their orbits. We show that the magnitude of RTT variability depends on the location of the communicating ground stations, exhibiting a spatial structure. Finally, we show that adding more satellites, and providing more routes between stations, does not necessarily reduce route variability. Rather, constellation configuration (i.e., the number of orbits and their inclination) plays a more significant role. We hope that the findings of this study will help with designing more robust routing algorithms for LEO satellite networks.},
+}
+
+@inproceedings{bhosale2020toward,
+  title={{Toward Loosely Coupled Orchestration for the $\{$LEO$\}$ Satellite Edge}},
+  author={Bhosale, Vaibhav and Bhardwaj, Ketan and Gavrilovska, Ada},
+  booktitle={3rd USENIX Workshop on Hot Topics in Edge Computing (HotEdge 20)},
+  year={2020},
+  file={hotedge20.pdf},
+  abstract={Low Earth Orbit (LEO) satellites are envisioned to be capable of providing Internet services for billions of users who currently lack reliable Internet connectivity. This calls for a new LEO edge capable of providing edge computing benefits from space. This paper proposes an orchestration approach for the LEO edge that incorporates path models, temporal compensation and affinity chains as the primary scheduling constructs, and presents preliminary results that illustrate opportunities for achieving improved service availability and improved performance for a stateful (caching) edge function.},
+}
+
 @incollection{example_invited_talk,
   author = {J. Doe},
   note = {Example Location},
