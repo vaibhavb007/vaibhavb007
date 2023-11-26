@@ -20,11 +20,11 @@ Vaibhav Bhosale is a third-year Ph.D. student at Georgia Tech advised by Prof. A
 </div>
 {% endfor %}
 
+{% for member in site.data.experience %}
 <div class="jumbotron">
 ### Professional Experience
- <ul style="overflow: hidden">
-  <li> {{ member.education1 | replace: "-","&#8211;"}} </li>
-  <li> {{ member.education2 | replace: "-","&#8211;"}} </li>
-  <li> {{ member.education3 | replace: "-","&#8211;"}} </li>
-  </ul>
+<i>{{member.title}}</i> at <b>{{member.company}}</b> {{member.team}}  {{member.period}}
+{% if member.mentor %}
+Mentored by: {{member.mentor}}
+{% endif %}
 </div>
