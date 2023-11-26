@@ -22,6 +22,6 @@ years: [2016, 2017, 2018, 2019, 2020, 2021]
 </div>
 
 <div class="jumbotron">
-### Refereed Conference/Workshop
+### Refereed Conference/Workshop Papers
 {% bibliography --query @inproceedings %}
 </div>
