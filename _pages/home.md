@@ -28,3 +28,4 @@ Vaibhav Bhosale is a third-year Ph.D. student at Georgia Tech advised by Prof. A
 Mentored by: {{member.mentor}}
 {% endif %}
 </div>
+{% endfor %}
