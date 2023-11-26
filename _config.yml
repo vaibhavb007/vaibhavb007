@@ -24,7 +24,6 @@ contact: >
 nav_pages:
   - name: publications
   - name: teaching
-  - name: experiences
 
 include:
   - .htaccess
